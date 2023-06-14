@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/weather.css">
+
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7544eb8730.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    
+    {{>navbar}}
+
+    
+    <section id="mainFile">
+        <div class="content">
+            <div class="main_content">
+            <form class="temp_form">
+                <input type="text" id="cityName" placeholder="enter your city name" autocomplete="off">
+                <div id="submitBtn"><i class="fa-solid fa-magnifying-glass fa-2x" style="color: #FC4F00;"></i></div>
+            </form>
+            </div>
+
+            <div id="tempInfo">
+            <div class="top_layer">
+                <p id="day">Tuesday</p>
+                <p id="todayDate">13 Oct</p>
+            </div>
+            <div class="main_layer">
+                <p id="city_name">OUTPUT...</p>
+                <div class="middleLayer data_hide">
+                    <p id="temp"><span>0</span>°c</p>
+                    <p id="tempStatus"><i class="fa-solid fa-cloud fa-6x" style="color: #dfe2e7;"></i></p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+
+
+
+
+
+    {{>footer}}
+
+
+    <script src="../js/index.js"></script>
+
+</body>
+</html>

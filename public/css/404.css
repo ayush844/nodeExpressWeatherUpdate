@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #1B1B2F;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    height: 90px ;
+    transition: transform 0.5s ease;
+}
+
+.logo:hover{
+    transform: rotate(360deg); 
+}
+
+.logo:active{
+    transform: scale(1.25);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 60px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: #FC4F00;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    font-size: 30px;
+    font-weight: 1000;
+    color: #F29727;
+}
+
+
+
+
+#mainFile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.description h3{
+    font-size: 30px;
+    color: #1B1B2F;
+}
+
+.description h1{
+    font-size: 50px;
+    color: #FC4F00;
+}
+
+.description h1 span{
+    color: #FC4F00;
+}
+
+.mainImg{
+    padding: 0  10%;
+}
+
+.mainImg img{
+    height: 400px;
+}
+
+
+a button{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: inherit;
+    border-radius: 20px;
+    border: 2px solid #FC4F00;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #1B1B2F;
+    color: #FC4F00;
+    transition: 0.5s;
+}
+
+
+a button:hover{
+    border: 2px solid #FC4F00;
+    font-size: 21px;
+    font-weight: 800;
+    background-color: #FC4F00;
+    color: #1B1B2F;
+}
+
+
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: sticky;
+    bottom: 0; */
+    margin-top: auto;
+    width: 100%;
+    height: 10vh;
+    background-color: #1B1B2F;
+    color: #FC4F00;
+}
+
+h1{
+    color: aqua;
+}
