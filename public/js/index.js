@@ -62,7 +62,6 @@ submitBtn.addEventListener('click', getInfo);
 
 
 
-setInterval(update, 1);
 
 function update(){
 
